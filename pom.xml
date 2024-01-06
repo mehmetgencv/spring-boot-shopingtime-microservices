@@ -16,7 +16,8 @@
 	<description>Demo project for Spring Boot</description>
     <modules>
         <module>product-service</module>
-    </modules>
+		<module>order-service</module>
+	</modules>
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
