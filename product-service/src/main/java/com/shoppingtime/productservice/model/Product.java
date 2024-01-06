@@ -1,4 +1,4 @@
-package com.shopingtime.productservice.model;
+package com.shoppingtime.productservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

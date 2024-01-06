@@ -1,4 +1,4 @@
-package com.shopingtime.productservice.dto;
+package com.shoppingtime.productservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,9 +11,8 @@ import java.math.BigDecimal;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProductResponse {
+public class ProductRequest {
 
-    private String id;
     private String name;
     private String description;
     private BigDecimal price;
