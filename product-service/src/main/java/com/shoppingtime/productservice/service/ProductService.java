@@ -1,9 +1,9 @@
-package com.shopingtime.productservice.service;
+package com.shoppingtime.productservice.service;
 
-import com.shopingtime.productservice.dto.ProductRequest;
-import com.shopingtime.productservice.dto.ProductResponse;
-import com.shopingtime.productservice.model.Product;
-import com.shopingtime.productservice.repository.ProductRepository;
+import com.shoppingtime.productservice.dto.ProductRequest;
+import com.shoppingtime.productservice.dto.ProductResponse;
+import com.shoppingtime.productservice.model.Product;
+import com.shoppingtime.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

@@ -1,8 +1,8 @@
-package com.shopingtime.productservice;
+package com.shoppingtime.productservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.shopingtime.productservice.dto.ProductRequest;
-import com.shopingtime.productservice.repository.ProductRepository;
+import com.shoppingtime.productservice.dto.ProductRequest;
+import com.shoppingtime.productservice.repository.ProductRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

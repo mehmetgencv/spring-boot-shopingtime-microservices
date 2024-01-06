@@ -1,8 +1,8 @@
-package com.shopingtime.productservice.controller;
+package com.shoppingtime.productservice.controller;
 
-import com.shopingtime.productservice.dto.ProductRequest;
-import com.shopingtime.productservice.dto.ProductResponse;
-import com.shopingtime.productservice.service.ProductService;
+import com.shoppingtime.productservice.dto.ProductRequest;
+import com.shoppingtime.productservice.dto.ProductResponse;
+import com.shoppingtime.productservice.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

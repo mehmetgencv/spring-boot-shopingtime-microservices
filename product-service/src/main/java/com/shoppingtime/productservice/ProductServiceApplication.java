@@ -1,4 +1,4 @@
-package com.shopingtime.productservice;
+package com.shoppingtime.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
