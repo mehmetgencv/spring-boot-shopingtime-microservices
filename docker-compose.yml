@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  order:
+    image: mysql:latest
+    container_name: order-db-container
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_DATABASE: order-service
+      MYSQL_USER: order
+      MYSQL_PASSWORD: mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - db1-data:/var/lib/mysql
+
+  inventory:
+    image: mysql:latest
+    container_name: inventory-db-container
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_DATABASE: inventory-service
+      MYSQL_USER: inventory
+      MYSQL_PASSWORD: mysql
+    ports:
+      - "3307:3306"  # Different port to avoid conflicts
+    volumes:
+      - db2-data:/var/lib/mysql
+
+volumes:
+  db1-data:
+  db2-data:
