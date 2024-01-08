@@ -18,10 +18,10 @@ public class InventoryServiceApplication {
         return args -> {
             Inventory inventory = new Inventory(
                     "iphone_15",
-                    69999);
+                    5);
             Inventory inventory1 = new Inventory(
                     "iphone_15_pro",
-                    79999);
+                    2);
 
             inventoryRepository.save(inventory);
             inventoryRepository.save(inventory1);
