@@ -21,7 +21,7 @@ public class InventoryServiceApplication {
                     5);
             Inventory inventory1 = new Inventory(
                     "iphone_15_pro",
-                    0);
+                    2);
 
             inventoryRepository.save(inventory);
             inventoryRepository.save(inventory1);
